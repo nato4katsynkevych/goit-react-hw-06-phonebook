@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.38eca308.css","mappings":"AAAA,KACE,sIAA2E,CAC3E,2BAA4B,CAC5B,qBACF,CACA,MACE,gBACF","sources":["style.css"],"sourcesContent":["body {\n  background-image: url(./leaves-background-with-metallic-foil_79603-956.jpg);\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n#root {\n  margin-top: 200px;\n}\n"],"names":[],"sourceRoot":""}
