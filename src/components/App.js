@@ -34,13 +34,13 @@ function App() {
 
   const test = (data) => {
     return select.some((item) => {
-      return item.name.toLowerCase() === data
+      return item.name?.toLowerCase() === data
     })
   }
 
   localStorage.setItem('Контакты', JSON.stringify(select))
-  const visibal = select.filter((sel) => {
-    return sel.name.toLowerCase().includes(fil.toLowerCase())
+  const visibal = select?.filter((sel) => {
+    return sel.name?.toLowerCase().includes(fil?.toLowerCase())
   })
 
   return (

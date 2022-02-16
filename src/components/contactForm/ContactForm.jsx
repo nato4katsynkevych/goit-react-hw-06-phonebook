@@ -20,8 +20,8 @@ function ContackForm({ submitForm, contacts }) {
     submitForm({ name, number })
 
     // dispatch(logIn({ id: nanoid(), name, number }))
-    setName('')
-    setNumber('')
+    setName(' ')
+    setNumber(' ')
   }
 
   return (
